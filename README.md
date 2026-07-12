@@ -122,3 +122,15 @@ Outputs land in `output/`:
   `categorized: true` in `output/manifest.json`, so it resumes instead of starting over.
 - Google's free tier terms can change — if `GEMINI_API_KEY` requests start failing
   outright, check https://ai.google.dev/gemini-api/docs/pricing for current limits.
+
+  ## Don't want to set any of this up?
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XtqoG7btnetbbBZX4xj75eQN2L48-FA5?usp=sharing)
+
+Click that badge to open a ready-to-run version in Google Colab — no Python, ffmpeg,
+or dependencies to install on your own machine. It runs on Colab's free servers, gives
+you a temporary web link with an upload-and-download interface, and even supports the
+full video-transcription mode (not just captions). The trade-off: the link only stays
+live while the Colab notebook is running, so it's for "open it, run it, get your docs"
+use rather than an always-on site. See the notebook's first cell for full instructions.
+
